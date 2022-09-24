@@ -1,4 +1,4 @@
-import { insertManyRecommendations, downvoteRecommendations, upvoteRecommendations } from '../tests/factories/recommendationFactory';
+import { insertManyRecommendations, downvoteRecommendations, upvoteRecommendations } from '../__tests__/factories/recommendationFactory';
 import { prisma } from './../src/database';
 
 async function main(){
